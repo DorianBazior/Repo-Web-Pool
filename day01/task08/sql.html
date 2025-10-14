@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <div class="content">
+        <head>
+            <title>CodingPedia</title>
+            <link rel="stylesheet" href="codingpedia.css">
+        </head>
+        <header class="box">
+            <nav class="box">
+                <ul>
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="php.html">PHP</a></li>
+                    <li><a href="sql.html">SQL</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="box">
+            <article>
+                <abbr>SQL (sigle pour Structured Query Language, « langage de requêtes structurées ») 
+                est un langage informatique normalisé servant à exploiter des bases de données relationnelles. 
+                La partie langage de manipulation des données de SQL permet de rechercher, d'ajouter, 
+                de modifier ou de supprimer des données dans les bases de données relationnelles.</abbr>
+            </article>
+            <article>
+                <table>
+                    <caption>Course planning</caption>
+                    <thead>
+                        <tr>
+                            <td>Subject</td>
+                            <td>Description</td>
+                            <td>Grade obtained</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SQL 101</td>
+                            <td>A quick introduction to the SQL language</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>SQL join</td>
+                            <td>Discovery of JOIN to combine rows from multiple tables</td>
+                            <td>13</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <ul>
+                    <li>Le SQL est très interressant !</li>
+                    <li>Les chaussettes de l'archiduchesse sont elles sèches ou archi sèches ?</li>
+                    <li>Ton thé, t'as t-il hôté ta toux tenace ?</li>
+                    <li>League of Legendes est overrated.</li>
+                </ul>
+            </article>
+            <article>
+                <pre>
+                    <code>
+    DECLARE N INTEGER;
+    SET N = 1;
+    FOR C 
+    AS C_USR_MISE_A_JOUR 
+        CURSOR FOR 
+        SELECT USR_ID, USR_NOM
+        FROM   T_UTILISATEUR_USR
+        ORDER  BY USR_ID
+        FOR UPDATE OF USR_NOM
+    DO
+        IF MOD(N, 2) = 0
+        THEN
+        UPDATE T_UTILISATEUR_USR
+                    </code>
+                </pre>
+            </article>
+        </main>
+        <aside class="box">
+            <p>Peace is a lie, there is only passion.
+                Through passion, I gain strength.
+                Through strength, I gain power.
+                Through power, I gain victory.
+                Through victory, my chains are broken.
+                The Force shall free me.
+                — Sith Code —</p>
+        </aside>
+        <footer class="box">
+            <address>Bazior, Dorian, 79 rue de Tarandelle, 0648466232</address>
+        </footer>
+    </div>
+</html>

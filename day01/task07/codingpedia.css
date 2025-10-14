@@ -1,0 +1,21 @@
+.content{
+  background-color: grey;
+}
+
+.box{
+  border: 2px solid black;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+
+main aside{
+  display: flex;
+  flex-direction: column;
+  flex: 80%;
+}
+
+header{
+  display: grid;
+}
