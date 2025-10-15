@@ -1,15 +1,33 @@
-header{
-    background-color: blue;
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    font-family: sans-serif;
 }
-
-section{
-    background-color: green;
+.boxbleu {
+    background-color: #67B3DD;
+    height: 12.5dvh;
+    max-width: 767px;
+ 
 }
-
-article{
-    background-color: yellow;
+.boxgreen {
+    background-color: #9EE062;
+    height: 25dvh;
+    margin-top: 1.5dvh;
+    max-width: 767px;
+ 
 }
-
-footer{
-    background-color: red;
+.boxyellow {
+    background-color: #FEDF6B;
+    height: 25dvh;
+    margin-top: 1.5dvh;
+    max-width: 767px;
+ 
+}
+.boxred {
+    background-color: #FC302D;
+    height: 12.5dvh;
+    margin-top: 1.5dvh;
+    max-width: 767px;
 }
